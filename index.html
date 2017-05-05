@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Pokemon-Atack</title>
+</head>
+<body BGCOLOR='#b2ffff'>
+	<h1>Ataque de Pokemon</h1>
+	<option>
+		<select name="seleccion">
+			<option value="escogePoke">Escoge tu POKEMON</option>
+		</select>
+	</option>
+	<select name="Pokemon" id="pk1">
+	  <option value="Pikachu">Pikachu</option>
+	  <option value="Charmander">Charmander</option>
+	  <option value="Venusaur">Venusaur</option>
+	  <option value="Wartortle">Wartortle</option>
+	  <option value="Squirtle">Squirtle</option>
+	  <option value="Rattata" selected>Rattata</option>
+	</select>
+
+	<button onclick="atacaPoke()">¡Atacar!</button>
+
+	<select name="Pokemon2" id="pk2">
+	  <option value="Pikachu">Pikachu</option>
+	  <option value="Charmander" selected>Charmander</option>
+	  <option value="Venusaur">Venusaur</option>
+	  <option value="Wartortle">Wartortle</option>
+	  <option value="Squirtle">Squirtle</option>
+	  <option value="Rattata">Rattata</option>
+	</select>
+	<p id="resul"></p>
+
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
